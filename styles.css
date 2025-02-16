@@ -19,3 +19,6 @@ table, th, td {
     padding: 4px; 
     background-color: paleturquoise;
 }
+
+body{
+  margin: 0 100px;
