@@ -1,0 +1,92 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./styles.css" type="text/css">
+    <title>Coding Cheatsheet</title>
+  </head>
+  
+  <body>
+    <header>
+      <h1 id="headertext">Cameron's Coding Cheatsheet - Display and Positioning</h1>
+    </header>
+
+    <h2>Tag Table</h2>
+    <table>
+      <thead>
+      <tr>
+        <th scope="col">Tag</th>
+        <th scope="col">Description</th>
+        <th scope="col">Example</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <th>position: static</th>
+          <td>default position</td>
+          <td></td>
+      </tr>
+
+      <tr>
+        <th>position: relative</th>
+          <td>Relative to the set default static position of the page</td>
+          <td>On a website, when a user hovers over an information icon, a small tooltip appears next to it.</td>
+      </tr>
+
+      <tr>
+        <th>position: absolute</th>
+          <td>Relative to closest positioned PARENT element. Can be pinned to any part of the page, but will move with the page. All other elements on the page will ignore the element and act like it is not present on the page.</td>
+          <td>A pop-up notification or tooltip that appears inside a button or card but does not affect the layout of other elements. It is positioned relative to its nearest positioned ancestor.</td>
+      </tr>
+
+      <tr>
+        <th>position: fixed</th>
+          <td>sets a box to a specific position on page, regardless of scrolling,</td>
+          <td>A sticky navigation bar that stays at the top of the page while scrolling.</td>
+      </tr>
+
+      <tr>
+        <th>position: sticky</th>
+          <td>removed from flow and remain when scrolling up to a certain pixel location</td>
+          <td>a box that comes when you scroll down, but up to a certain pixel location it then sticks in place / A table header that stays visible at the top while scrolling down a long table.</td>
+      </tr>
+
+      <tr>
+        <th>z-index: 0 </th>
+        <td>Depth of the element - wont affect static</td>
+        <td>0 is default, 1 is layer above</td>
+      </tr>
+
+      <tr>
+        <th>display: inline</th>
+        <td>Box wraps tight around the element</td>
+        <td>Navigation menu links displayed side by side in a horizontal row without breaking into new lines</td>
+      </tr>
+
+      <tr>
+        <th>display: block</th>
+        <td>fill entire width of page by default. </td>
+        <td>A button that takes up the full width of its container, stacking below other elements instead of sitting inline.</td>
+      </tr>
+
+      <tr>
+        <th>display: inline-block</th>
+        <td>Inline-block elements can appear next to each other and we can specify their dimensions using the width and height properties.</td>
+        <td>Navigation menu items (like buttons) that sit next to each other in a row but still allow width and height adjustments.</td>
+      </tr>
+
+      <tr>
+        <th>float: left/right;</th>
+        <td>moves elements as far left or right. works for static or relative positioned elements. must specify width</td>
+        <td></td>
+      </tr>      
+
+      <tr>
+        <th>clear: left, right, both, none;</th>
+        <td>specifies how elements should behave when they bump into each other on the page. When multiple floated elements have different heights, elements can “bump” into each other. used after floating multiple elements</td>
+        <td>clear: left - the left side of the element will not touch any other element within the same containing element.</td>
+      </tr>   
+
+      </tbody>
+    </table>
+  </body>
+
+</html>
